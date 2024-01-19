@@ -1,0 +1,135 @@
+
+body{
+  font-family: Arial; 
+  margin: 0;
+  padding: 10px;
+  background-color:#fff;
+}
+
+    /* Header and navigation styles */
+  
+    header {
+      background-color:black;
+      color: #fff;
+      padding: 20px;
+      height:50%;
+      
+    }
+    
+      
+      header h1 {
+        margin: 0;
+      }
+      
+      nav li {
+        display: inline;
+        padding: auto;  
+        border: 1px solid #ccc;
+        border-radius: 4px; 
+        margin: 0 15px;
+        
+        
+      }
+      
+      nav li:hover {
+        border-color: #777;
+        
+        
+      }
+      
+      nav li a {
+        text-decoration: none;
+        color: white;
+        padding: 5px 10px; 
+         
+      }
+
+
+/* Gallery Styles */
+.gallery {
+    display: flex; 
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .gallery img {
+    width: 30%;
+    margin-bottom: 10px;
+     
+    border: 5px solid black;
+  }
+  
+  h2{
+    color: darkred;
+    text-align: center;
+    text-decoration: underline;
+    
+  }
+  
+  /* Map Styles */
+  
+  iframe {
+    width: 60%;
+    height: 450px;
+    border: none;
+    
+    
+  }
+  
+ /* Make navigation responsive */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  
+  nav li {
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+
+/* Make images and iframe responsive */  
+img, 
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Stack gallery images on small screens */
+@media (max-width: 600px) {
+  .gallery img {
+    width: 100%; 
+  }
+}
+
+/* Make other elements responsive */
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 24px;
+  }
+  
+  p,
+  li {
+    font-size: 16px;
+  }
+  
+}
+#section1{
+  background-color: lightgreen;
+  font-size: 20px;
+}
+  
+  
+   
+      
+footer {
+  background-color:black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+  
+ 
+ 

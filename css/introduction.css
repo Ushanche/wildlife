@@ -1,0 +1,240 @@
+
+body{
+  font-family: Arial; 
+  margin: 0;
+  padding:0;
+  background-color:#fff;
+}
+
+  /* Header and navigation tyles */
+
+  
+  
+  
+  header {
+    background-color:black;
+    color: #fff;
+    padding: 20px;
+    height:50%;
+    
+  }
+  
+  
+  header h1 {
+    margin: 0;
+  }
+
+  nav li {
+    display: inline;
+    padding: auto;  
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    margin: 0 15px;
+    
+    
+  }
+  
+  nav li:hover {
+    border-color: #777;
+    
+    
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px; 
+     
+  }
+
+  #Sinharajaforst img{
+    width: 70%;
+    height: auto;
+  }
+
+  #Kumananationalpark img{
+    width: 70%;
+    height: auto;
+
+  }
+  #kumana{
+    background-color:lightgreen;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: auto;
+  }
+
+  #sinha{
+    background-color:lightgreen;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: auto;
+
+  }
+  
+
+
+
+
+
+
+/* Location styles */
+
+
+
+.location {
+    margin-bottom: 20px;
+    border: 1px solid #ddd; 
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .location img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .location h3 {
+    margin-top: 0;  
+  }
+  
+  .location p {
+    margin-bottom: 10px;
+  }
+
+
+  
+  /* Table styles */ 
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; 
+  }
+  
+  th {
+    background-color: #f2f2f2; 
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  tfoot {
+    font-style: italic;
+  }
+  
+  
+  /* Animation */
+  
+  .location {
+    animation: slide-up 0.5s ease-out;  
+  }
+  
+  iframe {
+    width: 50%;
+    height: 450px;
+    border: none;
+  }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    
+    100% {  
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+  
+
+  
+  h2{
+    color: darkred;
+    text-align: center;
+  }
+
+  footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+    
+
+
+  /* Make navbar stack vertically */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+/* Make images flexible */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adjust font sizes */  
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-size: 0.9rem;  
+  }
+}
+
+/* Display sections in single column */
+@media (max-width: 768px) {
+
+  .location {
+    flex-direction: column;
+  }
+  
+  .location img {
+    margin-bottom: 10px;
+  } 
+}
+
+/* Make table scrollable */
+@media (max-width: 768px) {
+
+  table {
+    width: 100%;
+    display: block; 
+    overflow-x: auto;
+  }
+  
+  thead {
+    position: sticky; 
+    top: 0;
+  } 
+}
+
+/* Stack table image below on mobile */
+@media (max-width: 480px) {
+
+  td:nth-child(4),
+  td:nth-child(2) {
+    display: block;
+  }
+}
+  

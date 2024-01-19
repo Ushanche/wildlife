@@ -1,0 +1,166 @@
+
+body{
+  font-family: Arial; 
+  margin: 0;
+  padding: 10px;
+  background-color:#fff;
+}
+
+ /* Header and navigation styles */
+  
+ header {
+  background-color:black;
+  color: #fff;
+  padding: 20px;
+  height:50%;
+  
+}
+
+
+header h1 {
+  margin: 0;
+}
+
+h2{
+  color: #348017;
+  text-align: center;
+  
+
+}
+nav li {
+  display: inline;
+  padding: auto;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  margin: 0 15px;
+  
+  
+}
+
+nav li:hover {
+  border-color: #777;
+  
+  
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px; 
+   
+}
+
+
+/* Link Styles */
+
+.links a {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 45%; 
+    background: #348017;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  
+
+  
+  h1{
+    color: #fff; 
+  
+  }
+  
+  p {
+    line-height: 1.5; 
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  section {
+    padding: 20px;
+  }
+    
+      /* Gallery Styles */
+
+.gallery {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gallery img {
+    width: 30%;
+    margin-bottom: 10px; 
+  }
+  
+  footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+    
+
+
+  
+ /* Make navigation responsive */
+ @media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  
+  nav li {
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Gallery */  
+@media (max-width: 600px) {
+  .gallery {
+    flex-direction: column;
+  }
+
+  .gallery img {
+    width: 100%;
+  }
+} 
+
+/* Links */
+@media (max-width: 600px) {
+
+  .links {
+    flex-direction: column; 
+  }
+
+  .links a {
+    padding: 10px 0;
+    text-align: center; 
+  }
+
+}
+
+/* Text */
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+
+}

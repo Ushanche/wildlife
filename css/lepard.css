@@ -1,0 +1,144 @@
+/* Leopard Page Styles */
+
+body{
+  font-family:Arial; 
+  margin: 0;
+  padding: 10px;
+  background-color:#fff;
+}
+  
+header {
+  background-color:black;
+  color: #fff;
+  padding: 20px;
+  height:50%;
+  
+}
+
+
+header h1 {
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  padding: auto;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  margin: 0 15px;
+  
+  
+}
+
+nav li:hover {
+  border-color: #777;
+  
+  
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px; 
+   
+}
+  h2 {
+    color: #800000;
+    text-align: center; 
+    text-decoration: underline; 
+  }
+  h3{
+    text-align: center;
+    color: black;
+  }
+  
+  img {
+    width: 550px;
+    border: 10px solid black;
+    
+  }
+
+  
+ 
+      
+  footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+    
+
+  #factors{
+   
+    font-size: 20px;
+  }
+
+  /* Navbar */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto; 
+}
+
+/* Font Sizes */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Venue Sections */ 
+@media (max-width: 768px) {
+  .venue { 
+    flex-direction: column;
+  }
+  
+  .venue img {
+    margin-bottom: 10px;
+  }
+} 
+
+/* Threat Sections */
+@media (max-width: 768px) {
+  .threat ol {
+    padding-left: 1.5rem; 
+  }
+  
+  .threat ol li {
+    font-size: 0.9rem; 
+  }
+}
+#institute{
+  a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px; 
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+  }
+  
+  a:active {
+    background-color: #555;
+    color: #fff;
+  }
+
+
+}

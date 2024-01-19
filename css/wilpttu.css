@@ -1,0 +1,157 @@
+/* Shared Park Styles */
+
+body {
+    background-color:lightgrey;
+    font-family: Arial;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff; 
+    padding: 20px;
+  }
+  
+  
+  section {
+    padding: 20px;
+    margin-bottom: 40px;  
+  }
+ 
+  
+  
+  
+  h1{
+    color:greenyellow;  
+  }
+  h2{
+    color: black;
+    text-decoration: underline;
+  }
+  
+  a {
+    color: #c69214;
+    text-decoration: none;
+  }
+
+
+ 
+  
+  img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  main img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+  }
+  #wilsafari img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  
+         /* Gallery styles */
+
+         .gallery {
+          display: flex; 
+          flex-wrap: wrap;
+          justify-content:space-between;
+        }
+        
+        .gallery img {
+          width: 30%;
+          margin-bottom: 10px;
+          border: 7px solid black; 
+        }
+
+
+
+  
+  
+  
+  /* Yala Styles */
+  
+  header {
+    background-image: url('yala-hero.jpg');
+    background-size: cover; 
+    background-position: center;
+  }
+  
+  body {
+    background-image: url('yala-background.png');
+  }
+  
+  a:hover {
+    text-decoration: underline;  
+  }
+  
+  h2 { 
+    text-align: center;
+  } 
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1; 
+    }
+  }
+  
+  img {
+    animation: fadeIn 1s ease-out;
+    
+  }
+     /* Header and navigation styles */
+  
+     header {
+        background-color:black;
+        color: #fff; 
+        padding: 20px;
+      }
+      
+      header h1 {
+        margin: 0;
+      }
+      
+      nav li {
+        display: inline;
+        padding: auto;  
+        border: 1px solid #ccc;
+        border-radius: 4px; 
+        margin: 0 15px;
+        
+        
+      }
+      
+      nav li:hover {
+        border-color: #777;
+        
+        
+      }
+      
+      nav li a {
+        text-decoration: none;
+        color: white;
+        padding: 5px 10px; 
+         
+      }
+      
+      footer {
+        background-color:black;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+        
+
+
+      
